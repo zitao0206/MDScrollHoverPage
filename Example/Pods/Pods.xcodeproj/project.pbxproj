@@ -1,0 +1,1090 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A6E6F460A263CC904E3E4CE9FF8C3E /* MDTopContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71188F95A5A719D805CBE62FDC551718 /* MDTopContentCell.m */; };
+		02824D70DC499B0AF9760EC47F9EDEAD /* EasyLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B6EAC143428D905E08440D37728B6D /* EasyLayout-dummy.m */; };
+		0A851ADC10BF2FC4736196DA393E90D9 /* MDLeftTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 42031F7A00BB493D752EF7CA429717C8 /* MDLeftTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0CC27DAB96137692F4BC2681BE4D8D0D /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7710D98F01664BD9B82A3F0791C609 /* NSString+Ext.m */; };
+		0F34C3F5C2471662C27C4F0CB9BFC3F6 /* MDBottomContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75660766FA69C6366E9CD9559F8B6B01 /* MDBottomContentCell.m */; };
+		116A7A2874D63D20DF7A318282EF46D8 /* MDSliderTitlesView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8687DCE54007507EE19C80A730D2108 /* MDSliderTitlesView.m */; };
+		16973AA571A844D49CF35637FA5BAF7A /* UIColor+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 23387D65A5B79DD53AF05C215320B39C /* UIColor+Ext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		181DFD665AA3B019C2361DD439732163 /* MDRightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F817E749B83A34402D4D9DCD2EF47 /* MDRightTableViewController.m */; };
+		1C6901B14AEF3C528AC2CE0CA246BD05 /* MDShellTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C9A6523C0EB4CD7701B6A37F08489 /* MDShellTableView.m */; };
+		2399BDAAC11AF8A8E3348C50A032476B /* NSArray+functional.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B838E71684D45DA85B78BEE998E87CB /* NSArray+functional.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23B9CCA7A56FDA5A93E039260EFA74B4 /* MDSlideBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC79F78DF357B5E67507977B97303EC /* MDSlideBarView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		250BECB2407A9F24C49FC49DF089167B /* MDSlideBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F51FAC9CE38FF03362E9B427C4C6C713 /* MDSlideBarView.m */; };
+		25527ACFA5C85477283E09802F04FE91 /* ItemDetailView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0448EDA78DED655D5DE2EB0B6FFF52A2 /* ItemDetailView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CC473655B8E46401C7420798A561466 /* MDTopContentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7DE39FC404197BBF64BFE71DBC2F6D /* MDTopContentCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32D9E9AEC4882B668DD788D3B41D68FE /* PicAndTextIntroduceView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF32DF87608C1120B139339B478CA8AF /* PicAndTextIntroduceView.m */; };
+		389DA3332B6750C2EB5073F50C4678E5 /* ItemDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 346E6617840784B8D22E98AFAF19FBCA /* ItemDetailView.m */; };
+		44A2C03E8A1F20F8AF2C096AE06C2124 /* MDBottomContentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C168BC2B4F03ADD7C1E923424769EB1 /* MDBottomContentCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		460CE99F02718EEA676248C7A7294A6E /* NSArray+functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC32C392C636EF84CEA8236E67D0BAC /* NSArray+functional.m */; };
+		493B2246FC14D9EEF715AEE740935FA6 /* MDBottomContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 248AEF3D736064AD9DCB1CFF0C62BE13 /* MDBottomContentView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D8EE821028148A80F80D3A0AD62EB04 /* MDCommonMacroDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 996DD263322F119C58E2D8189241F11C /* MDCommonMacroDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		53A0773EEE6049F307580310DA89D3F9 /* UIView+EasyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DD38EAD6F768C29481C13466D710 /* UIView+EasyLayout.m */; };
+		56984251B9086050ADC007F4EDFD85BA /* CommentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8533B48053B2956C6BECCE3329AA9086 /* CommentView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		595E20E4DC5433BACB93B42BB25AF54A /* MDFourScrollHoverPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 12A37520267DB8A6AE0C7A55A5684EAD /* MDFourScrollHoverPageViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D698A6DC41A389466D59898F401912A /* MDSliderTitlesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23AA1CE84BD08D2F43B1AA36C48E9E98 /* MDSliderTitlesView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69DFF96D227EB6E8CADD0E7BABA0D24D /* MDSlideBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5586BBA3783DF4F59AB8C02E461620B7 /* MDSlideBarItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7025F13A2C9EAAD18650C3726C19540C /* MDBottomContentBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA77B7A2D533F96E935A2DCA8D59A07 /* MDBottomContentBaseView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		83CB7AD15DC6E9B2F487C5E9DF5C57A4 /* MDFourScrollHoverPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912E8651D9654217141F0A47620AF98C /* MDFourScrollHoverPageViewController.m */; };
+		89AB2B689170741BC9DCDC0C32740554 /* MDThreeScrollHoverPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E647924095F9F2F34B09655DC59B7C0 /* MDThreeScrollHoverPageViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FCE2B3A40A01518C48A9FCAFC515C6A /* NSString+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E252C85EEAED2C057F7A6572B4F6CAD /* NSString+Ext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		920893B70D829A53264C304344B25CE2 /* MDFirstScrollHoverPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CB128A9F71C40A9F0D2235E3BC9193 /* MDFirstScrollHoverPageViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98786A555539314D1611006B47523A68 /* NSURL+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B65E118952D058BC8AA7E97A33D883 /* NSURL+Ext.m */; };
+		9B59AF89F0CFA6F4D02C18A71F8B8EAE /* Pods-MDScrollHoverPage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAC5DD0DC25A72213397A50284EAF10 /* Pods-MDScrollHoverPage_Example-dummy.m */; };
+		9FF6F3A48C104DD1BF9F52B68254997A /* MDBottomContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49971C8B98E4A324DB6FA40F2116F61B /* MDBottomContentView.m */; };
+		A44A8BBDF5730753B4C04618D2D0FB59 /* MDSecondScrollHoverPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AADDA7AB0D2E5375F449D66BBBAF3C3 /* MDSecondScrollHoverPageViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6E46A1ACEAE01EAC66C78D54ACDEE6B /* UIView+EasyLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A521AF4DD148D9E0431981F8C4C6A6D2 /* UIView+EasyLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC8A2E0A09C1FDEF8E966E51F66EB619 /* MDShellTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F137424E450CE8ECA500E5C0EFF03058 /* MDShellTableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACB4E284E03C077A7998AC5DEE6DAC74 /* MDSecondScrollHoverPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC91C77708F60CC558EF2A1C3FA939A9 /* MDSecondScrollHoverPageViewController.m */; };
+		B6EFAF435EC73D874A43D205BA8C6D70 /* EasyLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AEC37F33ADABDA44D6E1907E4E51DC /* EasyLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7F3F17183F391F636CC6CE4EA7C0F12 /* MDFirstScrollHoverPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F43EEC8A8238D0039769B2F0287CDDC /* MDFirstScrollHoverPageViewController.m */; };
+		BA9A95A289FDE5485C6BB6C1B562E045 /* MDCommonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C742C0F455180335A25DCA45312DA6 /* MDCommonKit-dummy.m */; };
+		C2D78946C2E2DCD4450A8B39097AF149 /* MDLeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5405465D7C67EF55C6E4B7CB7E445EA /* MDLeftTableViewController.m */; };
+		C4B12F5A414D88A37A2833C1A3682FD8 /* MDRightTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 727345AB2B54DC6119584B8A75376F19 /* MDRightTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C512411494C1B4472BE3CEA8EA6E620B /* MDCommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AE200F46C609D8BE713882383C4BC885 /* MDCommonKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA0E91C186540B8D62E28C0E7B7E4225 /* NSURL+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = FE10537DD26F1C973517285DB2086F25 /* NSURL+Ext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCA25E17A3CCE0645EF463EA285FCD2B /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = DD476F61D506B26B121586B5E1E32EEE /* UIColor+Ext.m */; };
+		CFD3E72642BF88C918473365E198F42C /* MDScrollHoverPage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A5C1D313E651536C11172456458327 /* MDScrollHoverPage-dummy.m */; };
+		D6836F385F96B85AA019D4BD89432D7A /* MDSlideBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B85FF7671ECB1666308C62134368715 /* MDSlideBarItem.m */; };
+		DF4C1A506D9A9532F6BCB7117BD4356A /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D34F4A3A78416B96F90976B0C6A3C1 /* CommentView.m */; };
+		E8FC904E1079E44B7D16F16733FEDCC4 /* PicAndTextIntroduceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 688C87AB9FA3D7867C3DB7B2AEBF6674 /* PicAndTextIntroduceView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3A5CEA32B9F5ABB29C0375931721B90 /* MDThreeScrollHoverPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76312D83E68E761CF79CC4318F7B8515 /* MDThreeScrollHoverPageViewController.m */; };
+		F96A25F02C347ACF4E492EDAB0342647 /* MDBottomContentBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 735F02AF4FE45FAE1AB14F70D596663C /* MDBottomContentBaseView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17F76768C6716E9DD606B44BC6E30A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77BCB9532F79433FABDFA7F3A96AABF2;
+			remoteInfo = MDScrollHoverPage;
+		};
+		48799C173DF2BC13311C3171BD148E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D00B5DA8A910B0DC2C1ED34FDAACFE2;
+			remoteInfo = MDCommonKit;
+		};
+		A4AB4B248D5890DAE1E7FD6B93F0C501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D00B5DA8A910B0DC2C1ED34FDAACFE2;
+			remoteInfo = MDCommonKit;
+		};
+		E01C7A37D0C1164A2BB7F174336F86FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB347F81D93A1871470FCA6BA96DB24B;
+			remoteInfo = EasyLayout;
+		};
+		FBA4272DCF423BEA9B30F66624B13D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB347F81D93A1871470FCA6BA96DB24B;
+			remoteInfo = EasyLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013423A8E9CC83250AC17418E5131A36 /* Pods-MDScrollHoverPage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MDScrollHoverPage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0448EDA78DED655D5DE2EB0B6FFF52A2 /* ItemDetailView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ItemDetailView.h; sourceTree = "<group>"; };
+		06C742C0F455180335A25DCA45312DA6 /* MDCommonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDCommonKit-dummy.m"; sourceTree = "<group>"; };
+		07822EC011284574EBC8D4D475EF49CD /* MDScrollHoverPage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MDScrollHoverPage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		088C137F35144191F7CA32BE2FFFC2D6 /* MDCommonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDCommonKit-prefix.pch"; sourceTree = "<group>"; };
+		0AADDA7AB0D2E5375F449D66BBBAF3C3 /* MDSecondScrollHoverPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDSecondScrollHoverPageViewController.h; sourceTree = "<group>"; };
+		0E252C85EEAED2C057F7A6572B4F6CAD /* NSString+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Ext.h"; path = "MDCommonKit/Classes/NSString+Ext.h"; sourceTree = "<group>"; };
+		12A37520267DB8A6AE0C7A55A5684EAD /* MDFourScrollHoverPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDFourScrollHoverPageViewController.h; sourceTree = "<group>"; };
+		1752D95AD226FBA3285E0476E8CFD99B /* EasyLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyLayout.debug.xcconfig; sourceTree = "<group>"; };
+		23387D65A5B79DD53AF05C215320B39C /* UIColor+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Ext.h"; path = "MDCommonKit/Classes/UIColor+Ext.h"; sourceTree = "<group>"; };
+		23AA1CE84BD08D2F43B1AA36C48E9E98 /* MDSliderTitlesView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDSliderTitlesView.h; sourceTree = "<group>"; };
+		248AEF3D736064AD9DCB1CFF0C62BE13 /* MDBottomContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDBottomContentView.h; sourceTree = "<group>"; };
+		26D34F4A3A78416B96F90976B0C6A3C1 /* CommentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CommentView.m; sourceTree = "<group>"; };
+		2F43EEC8A8238D0039769B2F0287CDDC /* MDFirstScrollHoverPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDFirstScrollHoverPageViewController.m; sourceTree = "<group>"; };
+		33D78E409C7C81EFC873760B138441EA /* MDScrollHoverPage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDScrollHoverPage.release.xcconfig; sourceTree = "<group>"; };
+		346E6617840784B8D22E98AFAF19FBCA /* ItemDetailView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ItemDetailView.m; sourceTree = "<group>"; };
+		34D3628FB90E9DAF4728BAF691D6803D /* MDCommonKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDCommonKit.debug.xcconfig; sourceTree = "<group>"; };
+		42031F7A00BB493D752EF7CA429717C8 /* MDLeftTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDLeftTableViewController.h; sourceTree = "<group>"; };
+		483F817E749B83A34402D4D9DCD2EF47 /* MDRightTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDRightTableViewController.m; sourceTree = "<group>"; };
+		48AEC37F33ADABDA44D6E1907E4E51DC /* EasyLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EasyLayout.h; path = EasyLayout/Classes/EasyLayout.h; sourceTree = "<group>"; };
+		4932A618A7CDAFC092A04452993B871E /* MDScrollHoverPage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDScrollHoverPage-prefix.pch"; sourceTree = "<group>"; };
+		494DE180AB3C56860748B724149ACD14 /* MDScrollHoverPage.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDScrollHoverPage.pch; sourceTree = "<group>"; };
+		49971C8B98E4A324DB6FA40F2116F61B /* MDBottomContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDBottomContentView.m; sourceTree = "<group>"; };
+		4A1E4A630FD294268CF5CEEB759582F5 /* libEasyLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEasyLayout.a; path = libEasyLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD8DD38EAD6F768C29481C13466D710 /* UIView+EasyLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+EasyLayout.m"; path = "EasyLayout/Classes/UIView+EasyLayout.m"; sourceTree = "<group>"; };
+		4C7710D98F01664BD9B82A3F0791C609 /* NSString+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Ext.m"; path = "MDCommonKit/Classes/NSString+Ext.m"; sourceTree = "<group>"; };
+		4E647924095F9F2F34B09655DC59B7C0 /* MDThreeScrollHoverPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDThreeScrollHoverPageViewController.h; sourceTree = "<group>"; };
+		4EA77B7A2D533F96E935A2DCA8D59A07 /* MDBottomContentBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDBottomContentBaseView.h; sourceTree = "<group>"; };
+		4EC79F78DF357B5E67507977B97303EC /* MDSlideBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDSlideBarView.h; sourceTree = "<group>"; };
+		5586BBA3783DF4F59AB8C02E461620B7 /* MDSlideBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDSlideBarItem.h; sourceTree = "<group>"; };
+		59B6EAC143428D905E08440D37728B6D /* EasyLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyLayout-dummy.m"; sourceTree = "<group>"; };
+		5B85FF7671ECB1666308C62134368715 /* MDSlideBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDSlideBarItem.m; sourceTree = "<group>"; };
+		5FC7270154C65B540F22450EC6FC5D4A /* MDScrollHoverPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDScrollHoverPage.debug.xcconfig; sourceTree = "<group>"; };
+		63FC7E01BDC9B91F783F38A29D08EFBC /* libMDScrollHoverPage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMDScrollHoverPage.a; path = libMDScrollHoverPage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CB128A9F71C40A9F0D2235E3BC9193 /* MDFirstScrollHoverPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDFirstScrollHoverPageViewController.h; sourceTree = "<group>"; };
+		688C87AB9FA3D7867C3DB7B2AEBF6674 /* PicAndTextIntroduceView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PicAndTextIntroduceView.h; sourceTree = "<group>"; };
+		6B838E71684D45DA85B78BEE998E87CB /* NSArray+functional.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+functional.h"; path = "MDCommonKit/Classes/NSArray+functional.h"; sourceTree = "<group>"; };
+		71188F95A5A719D805CBE62FDC551718 /* MDTopContentCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDTopContentCell.m; sourceTree = "<group>"; };
+		727345AB2B54DC6119584B8A75376F19 /* MDRightTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDRightTableViewController.h; sourceTree = "<group>"; };
+		735F02AF4FE45FAE1AB14F70D596663C /* MDBottomContentBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDBottomContentBaseView.m; sourceTree = "<group>"; };
+		75202DCD62F66751B86D802C0EBF40B5 /* MDCommonKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDCommonKit.release.xcconfig; sourceTree = "<group>"; };
+		75660766FA69C6366E9CD9559F8B6B01 /* MDBottomContentCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDBottomContentCell.m; sourceTree = "<group>"; };
+		76312D83E68E761CF79CC4318F7B8515 /* MDThreeScrollHoverPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDThreeScrollHoverPageViewController.m; sourceTree = "<group>"; };
+		7C8C9A6523C0EB4CD7701B6A37F08489 /* MDShellTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDShellTableView.m; path = MDScrollHoverPage/Classes/MDShellTableView.m; sourceTree = "<group>"; };
+		83934E3124AED15EA8A3B3663F7E8AB9 /* libPods-MDScrollHoverPage_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MDScrollHoverPage_Example.a"; path = "libPods-MDScrollHoverPage_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8533B48053B2956C6BECCE3329AA9086 /* CommentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CommentView.h; sourceTree = "<group>"; };
+		8C168BC2B4F03ADD7C1E923424769EB1 /* MDBottomContentCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDBottomContentCell.h; sourceTree = "<group>"; };
+		8FC32C392C636EF84CEA8236E67D0BAC /* NSArray+functional.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+functional.m"; path = "MDCommonKit/Classes/NSArray+functional.m"; sourceTree = "<group>"; };
+		912E8651D9654217141F0A47620AF98C /* MDFourScrollHoverPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDFourScrollHoverPageViewController.m; sourceTree = "<group>"; };
+		96A5C1D313E651536C11172456458327 /* MDScrollHoverPage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDScrollHoverPage-dummy.m"; sourceTree = "<group>"; };
+		996DD263322F119C58E2D8189241F11C /* MDCommonMacroDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCommonMacroDefine.h; path = MDCommonKit/Classes/MDCommonMacroDefine.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A521AF4DD148D9E0431981F8C4C6A6D2 /* UIView+EasyLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+EasyLayout.h"; path = "EasyLayout/Classes/UIView+EasyLayout.h"; sourceTree = "<group>"; };
+		AB7DE39FC404197BBF64BFE71DBC2F6D /* MDTopContentCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDTopContentCell.h; sourceTree = "<group>"; };
+		AE200F46C609D8BE713882383C4BC885 /* MDCommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCommonKit.h; path = MDCommonKit/Classes/MDCommonKit.h; sourceTree = "<group>"; };
+		BBAC5DD0DC25A72213397A50284EAF10 /* Pods-MDScrollHoverPage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MDScrollHoverPage_Example-dummy.m"; sourceTree = "<group>"; };
+		BC91C77708F60CC558EF2A1C3FA939A9 /* MDSecondScrollHoverPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDSecondScrollHoverPageViewController.m; sourceTree = "<group>"; };
+		BF32DF87608C1120B139339B478CA8AF /* PicAndTextIntroduceView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PicAndTextIntroduceView.m; sourceTree = "<group>"; };
+		C12C29D06384141E94675CB1DA920DD5 /* Pods-MDScrollHoverPage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MDScrollHoverPage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5C5B03C7D1C8936B774DB8BAE9FFB5A /* libMDCommonKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMDCommonKit.a; path = libMDCommonKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C603482C8866E63CAB8F768E8085BACB /* Pods-MDScrollHoverPage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MDScrollHoverPage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C9590908F1B6BCE74463FBC8BD0FB2E9 /* EasyLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyLayout.release.xcconfig; sourceTree = "<group>"; };
+		CBF1123019842A171837A1E9081C7227 /* Pods-MDScrollHoverPage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MDScrollHoverPage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD476F61D506B26B121586B5E1E32EEE /* UIColor+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Ext.m"; path = "MDCommonKit/Classes/UIColor+Ext.m"; sourceTree = "<group>"; };
+		E1B65E118952D058BC8AA7E97A33D883 /* NSURL+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Ext.m"; path = "MDCommonKit/Classes/NSURL+Ext.m"; sourceTree = "<group>"; };
+		E5405465D7C67EF55C6E4B7CB7E445EA /* MDLeftTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDLeftTableViewController.m; sourceTree = "<group>"; };
+		E8687DCE54007507EE19C80A730D2108 /* MDSliderTitlesView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDSliderTitlesView.m; sourceTree = "<group>"; };
+		F137424E450CE8ECA500E5C0EFF03058 /* MDShellTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDShellTableView.h; path = MDScrollHoverPage/Classes/MDShellTableView.h; sourceTree = "<group>"; };
+		F51FAC9CE38FF03362E9B427C4C6C713 /* MDSlideBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDSlideBarView.m; sourceTree = "<group>"; };
+		F96D65E75B6C084E7A42BA0605775741 /* EasyLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyLayout-prefix.pch"; sourceTree = "<group>"; };
+		FE10537DD26F1C973517285DB2086F25 /* NSURL+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+Ext.h"; path = "MDCommonKit/Classes/NSURL+Ext.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BE3909E475FD80A5DC6A5BFAFBE767B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173A9C5CCB4255D9CD2968CE99421B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEB9036F110540F4C11711948DF13AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA6E1D2DAA9728119257ED99BBDC478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2658BE06AAAB19416846D62691047B2A /* PlanFirst */ = {
+			isa = PBXGroup;
+			children = (
+				66CB128A9F71C40A9F0D2235E3BC9193 /* MDFirstScrollHoverPageViewController.h */,
+				2F43EEC8A8238D0039769B2F0287CDDC /* MDFirstScrollHoverPageViewController.m */,
+				DAC78727932FDBD3DA39BAF380ACF7F9 /* Bottom */,
+				5984979B7226D32F02C0A0C6BD1E86B7 /* SliderBar */,
+				A656BCCE76EE10CD6F74B5C9B0ECF46C /* Top */,
+			);
+			name = PlanFirst;
+			path = MDScrollHoverPage/Classes/PlanFirst;
+			sourceTree = "<group>";
+		};
+		299B0AB1BA0E0245EEF25D1CFFCF70A9 /* Bottom */ = {
+			isa = PBXGroup;
+			children = (
+				4EA77B7A2D533F96E935A2DCA8D59A07 /* MDBottomContentBaseView.h */,
+				735F02AF4FE45FAE1AB14F70D596663C /* MDBottomContentBaseView.m */,
+				248AEF3D736064AD9DCB1CFF0C62BE13 /* MDBottomContentView.h */,
+				49971C8B98E4A324DB6FA40F2116F61B /* MDBottomContentView.m */,
+				23AA1CE84BD08D2F43B1AA36C48E9E98 /* MDSliderTitlesView.h */,
+				E8687DCE54007507EE19C80A730D2108 /* MDSliderTitlesView.m */,
+				2AC0976EC2632C31EDE39FD19B20D0BD /* DetailViews */,
+			);
+			name = Bottom;
+			path = Bottom;
+			sourceTree = "<group>";
+		};
+		2AC0976EC2632C31EDE39FD19B20D0BD /* DetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				8533B48053B2956C6BECCE3329AA9086 /* CommentView.h */,
+				26D34F4A3A78416B96F90976B0C6A3C1 /* CommentView.m */,
+				0448EDA78DED655D5DE2EB0B6FFF52A2 /* ItemDetailView.h */,
+				346E6617840784B8D22E98AFAF19FBCA /* ItemDetailView.m */,
+				688C87AB9FA3D7867C3DB7B2AEBF6674 /* PicAndTextIntroduceView.h */,
+				BF32DF87608C1120B139339B478CA8AF /* PicAndTextIntroduceView.m */,
+			);
+			name = DetailViews;
+			path = DetailViews;
+			sourceTree = "<group>";
+		};
+		3B8454D97BAFFCE7824DDD333A3C1EC9 /* MDCommonKit */ = {
+			isa = PBXGroup;
+			children = (
+				AE200F46C609D8BE713882383C4BC885 /* MDCommonKit.h */,
+				996DD263322F119C58E2D8189241F11C /* MDCommonMacroDefine.h */,
+				6B838E71684D45DA85B78BEE998E87CB /* NSArray+functional.h */,
+				8FC32C392C636EF84CEA8236E67D0BAC /* NSArray+functional.m */,
+				0E252C85EEAED2C057F7A6572B4F6CAD /* NSString+Ext.h */,
+				4C7710D98F01664BD9B82A3F0791C609 /* NSString+Ext.m */,
+				FE10537DD26F1C973517285DB2086F25 /* NSURL+Ext.h */,
+				E1B65E118952D058BC8AA7E97A33D883 /* NSURL+Ext.m */,
+				23387D65A5B79DD53AF05C215320B39C /* UIColor+Ext.h */,
+				DD476F61D506B26B121586B5E1E32EEE /* UIColor+Ext.m */,
+				52015B67011B26F2490B7ED8E8CFCFF7 /* Support Files */,
+			);
+			name = MDCommonKit;
+			path = MDCommonKit;
+			sourceTree = "<group>";
+		};
+		493BD283195701947A2A1EFC76637A33 /* PlanThree */ = {
+			isa = PBXGroup;
+			children = (
+				4E647924095F9F2F34B09655DC59B7C0 /* MDThreeScrollHoverPageViewController.h */,
+				76312D83E68E761CF79CC4318F7B8515 /* MDThreeScrollHoverPageViewController.m */,
+			);
+			name = PlanThree;
+			path = MDScrollHoverPage/Classes/PlanThree;
+			sourceTree = "<group>";
+		};
+		52015B67011B26F2490B7ED8E8CFCFF7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06C742C0F455180335A25DCA45312DA6 /* MDCommonKit-dummy.m */,
+				088C137F35144191F7CA32BE2FFFC2D6 /* MDCommonKit-prefix.pch */,
+				34D3628FB90E9DAF4728BAF691D6803D /* MDCommonKit.debug.xcconfig */,
+				75202DCD62F66751B86D802C0EBF40B5 /* MDCommonKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MDCommonKit";
+			sourceTree = "<group>";
+		};
+		5984979B7226D32F02C0A0C6BD1E86B7 /* SliderBar */ = {
+			isa = PBXGroup;
+			children = (
+				5586BBA3783DF4F59AB8C02E461620B7 /* MDSlideBarItem.h */,
+				5B85FF7671ECB1666308C62134368715 /* MDSlideBarItem.m */,
+				4EC79F78DF357B5E67507977B97303EC /* MDSlideBarView.h */,
+				F51FAC9CE38FF03362E9B427C4C6C713 /* MDSlideBarView.m */,
+			);
+			name = SliderBar;
+			path = SliderBar;
+			sourceTree = "<group>";
+		};
+		65E328860058540CFB251DCD7D66024A /* PlanSecond */ = {
+			isa = PBXGroup;
+			children = (
+				0AADDA7AB0D2E5375F449D66BBBAF3C3 /* MDSecondScrollHoverPageViewController.h */,
+				BC91C77708F60CC558EF2A1C3FA939A9 /* MDSecondScrollHoverPageViewController.m */,
+				299B0AB1BA0E0245EEF25D1CFFCF70A9 /* Bottom */,
+			);
+			name = PlanSecond;
+			path = MDScrollHoverPage/Classes/PlanSecond;
+			sourceTree = "<group>";
+		};
+		778FB28D27A7CE2E8D2783BAE5D26FF1 /* EasyLayout */ = {
+			isa = PBXGroup;
+			children = (
+				48AEC37F33ADABDA44D6E1907E4E51DC /* EasyLayout.h */,
+				A521AF4DD148D9E0431981F8C4C6A6D2 /* UIView+EasyLayout.h */,
+				4BD8DD38EAD6F768C29481C13466D710 /* UIView+EasyLayout.m */,
+				F0F62104E242E25DC65207F728427ADE /* Support Files */,
+			);
+			name = EasyLayout;
+			path = EasyLayout;
+			sourceTree = "<group>";
+		};
+		87505ED5DB983D1E7581F7AB464FDF76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A1E4A630FD294268CF5CEEB759582F5 /* libEasyLayout.a */,
+				C5C5B03C7D1C8936B774DB8BAE9FFB5A /* libMDCommonKit.a */,
+				63FC7E01BDC9B91F783F38A29D08EFBC /* libMDScrollHoverPage.a */,
+				83934E3124AED15EA8A3B3663F7E8AB9 /* libPods-MDScrollHoverPage_Example.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F5F717C17710C29889FC6A4215FEBDB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96A5C1D313E651536C11172456458327 /* MDScrollHoverPage-dummy.m */,
+				4932A618A7CDAFC092A04452993B871E /* MDScrollHoverPage-prefix.pch */,
+				5FC7270154C65B540F22450EC6FC5D4A /* MDScrollHoverPage.debug.xcconfig */,
+				33D78E409C7C81EFC873760B138441EA /* MDScrollHoverPage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MDScrollHoverPage";
+			sourceTree = "<group>";
+		};
+		A656BCCE76EE10CD6F74B5C9B0ECF46C /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				AB7DE39FC404197BBF64BFE71DBC2F6D /* MDTopContentCell.h */,
+				71188F95A5A719D805CBE62FDC551718 /* MDTopContentCell.m */,
+			);
+			name = Top;
+			path = Top;
+			sourceTree = "<group>";
+		};
+		B1AEA4AB94F17C545337FE7B20A42B85 /* MDScrollHoverPage */ = {
+			isa = PBXGroup;
+			children = (
+				F137424E450CE8ECA500E5C0EFF03058 /* MDShellTableView.h */,
+				7C8C9A6523C0EB4CD7701B6A37F08489 /* MDShellTableView.m */,
+				2658BE06AAAB19416846D62691047B2A /* PlanFirst */,
+				EF290B917C8BBEC976B99B975825920A /* PlanFour */,
+				65E328860058540CFB251DCD7D66024A /* PlanSecond */,
+				493BD283195701947A2A1EFC76637A33 /* PlanThree */,
+				B9894228A11E3CDF5D1DB44C295977D9 /* Pod */,
+				8F5F717C17710C29889FC6A4215FEBDB /* Support Files */,
+			);
+			name = MDScrollHoverPage;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B9894228A11E3CDF5D1DB44C295977D9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				494DE180AB3C56860748B724149ACD14 /* MDScrollHoverPage.pch */,
+				07822EC011284574EBC8D4D475EF49CD /* MDScrollHoverPage.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BB76C338621C55CD86CEBBC23FE43279 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1AEA4AB94F17C545337FE7B20A42B85 /* MDScrollHoverPage */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BD6BA543DE684ACBF8DBBDED392E6407 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				778FB28D27A7CE2E8D2783BAE5D26FF1 /* EasyLayout */,
+				3B8454D97BAFFCE7824DDD333A3C1EC9 /* MDCommonKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BB76C338621C55CD86CEBBC23FE43279 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				BD6BA543DE684ACBF8DBBDED392E6407 /* Pods */,
+				87505ED5DB983D1E7581F7AB464FDF76 /* Products */,
+				F7405FCBDAF5A16B90C05A8A7E8431AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D21E20FFD6248A93352BB54E29700D88 /* Pods-MDScrollHoverPage_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C12C29D06384141E94675CB1DA920DD5 /* Pods-MDScrollHoverPage_Example-acknowledgements.markdown */,
+				CBF1123019842A171837A1E9081C7227 /* Pods-MDScrollHoverPage_Example-acknowledgements.plist */,
+				BBAC5DD0DC25A72213397A50284EAF10 /* Pods-MDScrollHoverPage_Example-dummy.m */,
+				C603482C8866E63CAB8F768E8085BACB /* Pods-MDScrollHoverPage_Example.debug.xcconfig */,
+				013423A8E9CC83250AC17418E5131A36 /* Pods-MDScrollHoverPage_Example.release.xcconfig */,
+			);
+			name = "Pods-MDScrollHoverPage_Example";
+			path = "Target Support Files/Pods-MDScrollHoverPage_Example";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAC78727932FDBD3DA39BAF380ACF7F9 /* Bottom */ = {
+			isa = PBXGroup;
+			children = (
+				8C168BC2B4F03ADD7C1E923424769EB1 /* MDBottomContentCell.h */,
+				75660766FA69C6366E9CD9559F8B6B01 /* MDBottomContentCell.m */,
+				42031F7A00BB493D752EF7CA429717C8 /* MDLeftTableViewController.h */,
+				E5405465D7C67EF55C6E4B7CB7E445EA /* MDLeftTableViewController.m */,
+				727345AB2B54DC6119584B8A75376F19 /* MDRightTableViewController.h */,
+				483F817E749B83A34402D4D9DCD2EF47 /* MDRightTableViewController.m */,
+			);
+			name = Bottom;
+			path = Bottom;
+			sourceTree = "<group>";
+		};
+		EF290B917C8BBEC976B99B975825920A /* PlanFour */ = {
+			isa = PBXGroup;
+			children = (
+				12A37520267DB8A6AE0C7A55A5684EAD /* MDFourScrollHoverPageViewController.h */,
+				912E8651D9654217141F0A47620AF98C /* MDFourScrollHoverPageViewController.m */,
+			);
+			name = PlanFour;
+			path = MDScrollHoverPage/Classes/PlanFour;
+			sourceTree = "<group>";
+		};
+		F0F62104E242E25DC65207F728427ADE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59B6EAC143428D905E08440D37728B6D /* EasyLayout-dummy.m */,
+				F96D65E75B6C084E7A42BA0605775741 /* EasyLayout-prefix.pch */,
+				1752D95AD226FBA3285E0476E8CFD99B /* EasyLayout.debug.xcconfig */,
+				C9590908F1B6BCE74463FBC8BD0FB2E9 /* EasyLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EasyLayout";
+			sourceTree = "<group>";
+		};
+		F7405FCBDAF5A16B90C05A8A7E8431AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D21E20FFD6248A93352BB54E29700D88 /* Pods-MDScrollHoverPage_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F7FBB3230EAEB7F04D4C51F8E6F5309 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49379CFA51FCBCD39BEBFA1DFF379E9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EFAF435EC73D874A43D205BA8C6D70 /* EasyLayout.h in Headers */,
+				A6E46A1ACEAE01EAC66C78D54ACDEE6B /* UIView+EasyLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7556FE6020077B108687560DF23D4220 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56984251B9086050ADC007F4EDFD85BA /* CommentView.h in Headers */,
+				25527ACFA5C85477283E09802F04FE91 /* ItemDetailView.h in Headers */,
+				7025F13A2C9EAAD18650C3726C19540C /* MDBottomContentBaseView.h in Headers */,
+				44A2C03E8A1F20F8AF2C096AE06C2124 /* MDBottomContentCell.h in Headers */,
+				493B2246FC14D9EEF715AEE740935FA6 /* MDBottomContentView.h in Headers */,
+				920893B70D829A53264C304344B25CE2 /* MDFirstScrollHoverPageViewController.h in Headers */,
+				595E20E4DC5433BACB93B42BB25AF54A /* MDFourScrollHoverPageViewController.h in Headers */,
+				0A851ADC10BF2FC4736196DA393E90D9 /* MDLeftTableViewController.h in Headers */,
+				C4B12F5A414D88A37A2833C1A3682FD8 /* MDRightTableViewController.h in Headers */,
+				A44A8BBDF5730753B4C04618D2D0FB59 /* MDSecondScrollHoverPageViewController.h in Headers */,
+				AC8A2E0A09C1FDEF8E966E51F66EB619 /* MDShellTableView.h in Headers */,
+				69DFF96D227EB6E8CADD0E7BABA0D24D /* MDSlideBarItem.h in Headers */,
+				23B9CCA7A56FDA5A93E039260EFA74B4 /* MDSlideBarView.h in Headers */,
+				5D698A6DC41A389466D59898F401912A /* MDSliderTitlesView.h in Headers */,
+				89AB2B689170741BC9DCDC0C32740554 /* MDThreeScrollHoverPageViewController.h in Headers */,
+				2CC473655B8E46401C7420798A561466 /* MDTopContentCell.h in Headers */,
+				E8FC904E1079E44B7D16F16733FEDCC4 /* PicAndTextIntroduceView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF96B9A328AFC2E01C2E4D0E9343947 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C512411494C1B4472BE3CEA8EA6E620B /* MDCommonKit.h in Headers */,
+				4D8EE821028148A80F80D3A0AD62EB04 /* MDCommonMacroDefine.h in Headers */,
+				2399BDAAC11AF8A8E3348C50A032476B /* NSArray+functional.h in Headers */,
+				8FCE2B3A40A01518C48A9FCAFC515C6A /* NSString+Ext.h in Headers */,
+				CA0E91C186540B8D62E28C0E7B7E4225 /* NSURL+Ext.h in Headers */,
+				16973AA571A844D49CF35637FA5BAF7A /* UIColor+Ext.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		77BCB9532F79433FABDFA7F3A96AABF2 /* MDScrollHoverPage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC4BCC9D76CE5C7A9D60AC9000D99AE /* Build configuration list for PBXNativeTarget "MDScrollHoverPage" */;
+			buildPhases = (
+				7556FE6020077B108687560DF23D4220 /* Headers */,
+				B478A0D76B478B4754EAB0940660FC3B /* Sources */,
+				173A9C5CCB4255D9CD2968CE99421B60 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81DE1452C02A0EE76249F6699F90A23C /* PBXTargetDependency */,
+				6CC58EE01C44B15DC441951B091F71E7 /* PBXTargetDependency */,
+			);
+			name = MDScrollHoverPage;
+			productName = MDScrollHoverPage;
+			productReference = 63FC7E01BDC9B91F783F38A29D08EFBC /* libMDScrollHoverPage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7D00B5DA8A910B0DC2C1ED34FDAACFE2 /* MDCommonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A364B6231434A242F47C7D8602D6918 /* Build configuration list for PBXNativeTarget "MDCommonKit" */;
+			buildPhases = (
+				8FF96B9A328AFC2E01C2E4D0E9343947 /* Headers */,
+				23F5E8616EE7D1B4605E1F92E2EDE418 /* Sources */,
+				FFA6E1D2DAA9728119257ED99BBDC478 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDCommonKit;
+			productName = MDCommonKit;
+			productReference = C5C5B03C7D1C8936B774DB8BAE9FFB5A /* libMDCommonKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EB347F81D93A1871470FCA6BA96DB24B /* EasyLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AADC854FB4F29066A8206F452A269D3 /* Build configuration list for PBXNativeTarget "EasyLayout" */;
+			buildPhases = (
+				49379CFA51FCBCD39BEBFA1DFF379E9D /* Headers */,
+				375D58C8C70773B7C2DCCF3562475ECC /* Sources */,
+				0BE3909E475FD80A5DC6A5BFAFBE767B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyLayout;
+			productName = EasyLayout;
+			productReference = 4A1E4A630FD294268CF5CEEB759582F5 /* libEasyLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F9598D1208F80BB0823A8F24306F2E4F /* Pods-MDScrollHoverPage_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC71B1C191D46AA6B4B0C2819D5EDE36 /* Build configuration list for PBXNativeTarget "Pods-MDScrollHoverPage_Example" */;
+			buildPhases = (
+				0F7FBB3230EAEB7F04D4C51F8E6F5309 /* Headers */,
+				1C6CB2D9CB4AE619A04692E94CF7C678 /* Sources */,
+				5EEB9036F110540F4C11711948DF13AC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B89FCFCB409A8B4FB4B5608883A6DFB /* PBXTargetDependency */,
+				96BE0E34D9A266BD01D0E112E7281CC7 /* PBXTargetDependency */,
+				427D1BB14144E2D0DED5AC0BAD805E91 /* PBXTargetDependency */,
+			);
+			name = "Pods-MDScrollHoverPage_Example";
+			productName = "Pods-MDScrollHoverPage_Example";
+			productReference = 83934E3124AED15EA8A3B3663F7E8AB9 /* libPods-MDScrollHoverPage_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 87505ED5DB983D1E7581F7AB464FDF76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB347F81D93A1871470FCA6BA96DB24B /* EasyLayout */,
+				7D00B5DA8A910B0DC2C1ED34FDAACFE2 /* MDCommonKit */,
+				77BCB9532F79433FABDFA7F3A96AABF2 /* MDScrollHoverPage */,
+				F9598D1208F80BB0823A8F24306F2E4F /* Pods-MDScrollHoverPage_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C6CB2D9CB4AE619A04692E94CF7C678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B59AF89F0CFA6F4D02C18A71F8B8EAE /* Pods-MDScrollHoverPage_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F5E8616EE7D1B4605E1F92E2EDE418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9A95A289FDE5485C6BB6C1B562E045 /* MDCommonKit-dummy.m in Sources */,
+				460CE99F02718EEA676248C7A7294A6E /* NSArray+functional.m in Sources */,
+				0CC27DAB96137692F4BC2681BE4D8D0D /* NSString+Ext.m in Sources */,
+				98786A555539314D1611006B47523A68 /* NSURL+Ext.m in Sources */,
+				CCA25E17A3CCE0645EF463EA285FCD2B /* UIColor+Ext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375D58C8C70773B7C2DCCF3562475ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02824D70DC499B0AF9760EC47F9EDEAD /* EasyLayout-dummy.m in Sources */,
+				53A0773EEE6049F307580310DA89D3F9 /* UIView+EasyLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B478A0D76B478B4754EAB0940660FC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4C1A506D9A9532F6BCB7117BD4356A /* CommentView.m in Sources */,
+				389DA3332B6750C2EB5073F50C4678E5 /* ItemDetailView.m in Sources */,
+				F96A25F02C347ACF4E492EDAB0342647 /* MDBottomContentBaseView.m in Sources */,
+				0F34C3F5C2471662C27C4F0CB9BFC3F6 /* MDBottomContentCell.m in Sources */,
+				9FF6F3A48C104DD1BF9F52B68254997A /* MDBottomContentView.m in Sources */,
+				B7F3F17183F391F636CC6CE4EA7C0F12 /* MDFirstScrollHoverPageViewController.m in Sources */,
+				83CB7AD15DC6E9B2F487C5E9DF5C57A4 /* MDFourScrollHoverPageViewController.m in Sources */,
+				C2D78946C2E2DCD4450A8B39097AF149 /* MDLeftTableViewController.m in Sources */,
+				181DFD665AA3B019C2361DD439732163 /* MDRightTableViewController.m in Sources */,
+				CFD3E72642BF88C918473365E198F42C /* MDScrollHoverPage-dummy.m in Sources */,
+				ACB4E284E03C077A7998AC5DEE6DAC74 /* MDSecondScrollHoverPageViewController.m in Sources */,
+				1C6901B14AEF3C528AC2CE0CA246BD05 /* MDShellTableView.m in Sources */,
+				D6836F385F96B85AA019D4BD89432D7A /* MDSlideBarItem.m in Sources */,
+				250BECB2407A9F24C49FC49DF089167B /* MDSlideBarView.m in Sources */,
+				116A7A2874D63D20DF7A318282EF46D8 /* MDSliderTitlesView.m in Sources */,
+				F3A5CEA32B9F5ABB29C0375931721B90 /* MDThreeScrollHoverPageViewController.m in Sources */,
+				01A6E6F460A263CC904E3E4CE9FF8C3E /* MDTopContentCell.m in Sources */,
+				32D9E9AEC4882B668DD788D3B41D68FE /* PicAndTextIntroduceView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		427D1BB14144E2D0DED5AC0BAD805E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDScrollHoverPage;
+			target = 77BCB9532F79433FABDFA7F3A96AABF2 /* MDScrollHoverPage */;
+			targetProxy = 17F76768C6716E9DD606B44BC6E30A38 /* PBXContainerItemProxy */;
+		};
+		6CC58EE01C44B15DC441951B091F71E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDCommonKit;
+			target = 7D00B5DA8A910B0DC2C1ED34FDAACFE2 /* MDCommonKit */;
+			targetProxy = A4AB4B248D5890DAE1E7FD6B93F0C501 /* PBXContainerItemProxy */;
+		};
+		7B89FCFCB409A8B4FB4B5608883A6DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyLayout;
+			target = EB347F81D93A1871470FCA6BA96DB24B /* EasyLayout */;
+			targetProxy = FBA4272DCF423BEA9B30F66624B13D02 /* PBXContainerItemProxy */;
+		};
+		81DE1452C02A0EE76249F6699F90A23C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyLayout;
+			target = EB347F81D93A1871470FCA6BA96DB24B /* EasyLayout */;
+			targetProxy = E01C7A37D0C1164A2BB7F174336F86FA /* PBXContainerItemProxy */;
+		};
+		96BE0E34D9A266BD01D0E112E7281CC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDCommonKit;
+			target = 7D00B5DA8A910B0DC2C1ED34FDAACFE2 /* MDCommonKit */;
+			targetProxy = 48799C173DF2BC13311C3171BD148E71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		41D1FE7261E0DC562726425615CF55F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013423A8E9CC83250AC17418E5131A36 /* Pods-MDScrollHoverPage_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4737453F73A6DBA967C5FA5679867F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34D3628FB90E9DAF4728BAF691D6803D /* MDCommonKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MDCommonKit/MDCommonKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MDCommonKit;
+				PRODUCT_NAME = MDCommonKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C954E84481CD8F6E359DCC035E19986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9590908F1B6BCE74463FBC8BD0FB2E9 /* EasyLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyLayout/EasyLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EasyLayout;
+				PRODUCT_NAME = EasyLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C7A0AAD0BFC4CFAA8726644760D00BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC7270154C65B540F22450EC6FC5D4A /* MDScrollHoverPage.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MDScrollHoverPage/MDScrollHoverPage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MDScrollHoverPage;
+				PRODUCT_NAME = MDScrollHoverPage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D2B4F1E45F661DE7C35B9CB47AE1BF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D78E409C7C81EFC873760B138441EA /* MDScrollHoverPage.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MDScrollHoverPage/MDScrollHoverPage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MDScrollHoverPage;
+				PRODUCT_NAME = MDScrollHoverPage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1B515F95CE180156529E631A7F363AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1752D95AD226FBA3285E0476E8CFD99B /* EasyLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyLayout/EasyLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EasyLayout;
+				PRODUCT_NAME = EasyLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9EA368E413854F1BCF17131BB1D5EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75202DCD62F66751B86D802C0EBF40B5 /* MDCommonKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MDCommonKit/MDCommonKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MDCommonKit;
+				PRODUCT_NAME = MDCommonKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD968506B7E655DE442C02A2BCBCA3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C603482C8866E63CAB8F768E8085BACB /* Pods-MDScrollHoverPage_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AADC854FB4F29066A8206F452A269D3 /* Build configuration list for PBXNativeTarget "EasyLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B515F95CE180156529E631A7F363AD /* Debug */,
+				6C954E84481CD8F6E359DCC035E19986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A364B6231434A242F47C7D8602D6918 /* Build configuration list for PBXNativeTarget "MDCommonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4737453F73A6DBA967C5FA5679867F06 /* Debug */,
+				E9EA368E413854F1BCF17131BB1D5EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC4BCC9D76CE5C7A9D60AC9000D99AE /* Build configuration list for PBXNativeTarget "MDScrollHoverPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7A0AAD0BFC4CFAA8726644760D00BB /* Debug */,
+				D2B4F1E45F661DE7C35B9CB47AE1BF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC71B1C191D46AA6B4B0C2819D5EDE36 /* Build configuration list for PBXNativeTarget "Pods-MDScrollHoverPage_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD968506B7E655DE442C02A2BCBCA3BA /* Debug */,
+				41D1FE7261E0DC562726425615CF55F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

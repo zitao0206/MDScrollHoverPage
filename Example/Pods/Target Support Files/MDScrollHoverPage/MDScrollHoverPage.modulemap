@@ -1,0 +1,6 @@
+framework module MDScrollHoverPage {
+  umbrella header "MDScrollHoverPage-umbrella.h"
+
+  export *
+  module * { export * }
+}

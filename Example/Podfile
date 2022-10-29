@@ -1,0 +1,8 @@
+source 'https://github.com/Leon0206/MDSpecs.git'
+
+platform :ios, '9.0'
+
+target 'MDScrollHoverPage_Example' do
+  pod 'MDScrollHoverPage', :path => '../'
+  pod 'EasyLayout', '~> 1.0.0'
+end

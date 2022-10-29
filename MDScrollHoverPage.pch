@@ -1,0 +1,31 @@
+//
+//
+//  MDScrollHoverPage.pch
+//
+//  Created by Leon0206 on 2020/4/20.
+//
+
+
+#import <UIKit/UIKit.h>
+
+#define ScreenHeight       [UIScreen mainScreen].bounds.size.height
+#define ScreenWidth       [UIScreen mainScreen].bounds.size.width
+
+#define NavigatorHeight             64
+
+#define TopContentViewHeight   200
+
+#define SliderSectionHeight    60
+
+#define ContentTableViewHeight  ScreenHeight - SliderSectionHeight - NavigatorHeight
+
+#define TableViewHeight      ScreenHeight  - NavigatorHeight
+
+
+static NSString * const TABLELEAVETOP = @"tableLeaveTop";
+static NSString * const TABLETOP = @"tableTop";
+
+static CGFloat const KTopBarHeight = 60.;
+
+
+#import <EasyLayout/EasyLayout.h>

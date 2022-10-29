@@ -1,0 +1,6 @@
+framework module Pods_MDScrollHoverPage_Example {
+  umbrella header "Pods-MDScrollHoverPage_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

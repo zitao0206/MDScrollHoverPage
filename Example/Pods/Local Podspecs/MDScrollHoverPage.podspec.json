@@ -1,0 +1,31 @@
+{
+  "name": "MDScrollHoverPage",
+  "version": "0.1.0",
+  "summary": "A short description of MDScrollHoverPage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Leon0206/MDScrollHoverPage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Leon0206": "634376133@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Leon0206/MDScrollHoverPage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MDScrollHoverPage/Classes/**/*",
+  "prefix_header_file": "MDScrollHoverPage.pch",
+  "dependencies": {
+    "MDCommonKit": [
+
+    ],
+    "EasyLayout": [
+
+    ]
+  }
+}
