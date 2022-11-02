@@ -2,7 +2,7 @@
 //  UIView+EasyLayout.m
 //  EasyLayout
 //
-//  Created by Leon0206 on 2018/6/21.
+//  Created by lizitao on 2018/6/21.
 //
 
 #import "UIView+EasyLayout.h"

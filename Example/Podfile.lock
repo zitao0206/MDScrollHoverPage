@@ -1,18 +1,14 @@
 PODS:
   - EasyLayout (1.0.22)
-  - MDCommonKit (1.0.27)
   - MDScrollHoverPage (0.1.0):
     - EasyLayout
-    - MDCommonKit
 
 DEPENDENCIES:
-  - EasyLayout (~> 1.0.0)
   - MDScrollHoverPage (from `../`)
 
 SPEC REPOS:
   https://github.com/Leon0206/MDSpecs.git:
     - EasyLayout
-    - MDCommonKit
 
 EXTERNAL SOURCES:
   MDScrollHoverPage:
@@ -20,9 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   EasyLayout: 24623ce8ec65089f043c79d8c966a788817b2bb2
-  MDCommonKit: 30688ea5aa71875273f1b753efaaf7969ef02b01
-  MDScrollHoverPage: 0d5d3f5b77af5f186f1d7cf169219fb5db32ac66
+  MDScrollHoverPage: a005b3dd1bc23175750480d70ac2967b625d6bc5
 
-PODFILE CHECKSUM: c9b2f675bed5a0d4ff6055c9c0c56acf70fb59c5
+PODFILE CHECKSUM: e4860484085d821b8fbba0aecd35c43125329dcd
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3

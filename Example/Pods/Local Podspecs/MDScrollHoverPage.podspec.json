@@ -21,9 +21,6 @@
   "source_files": "MDScrollHoverPage/Classes/**/*",
   "prefix_header_file": "MDScrollHoverPage.pch",
   "dependencies": {
-    "MDCommonKit": [
-
-    ],
     "EasyLayout": [
 
     ]
